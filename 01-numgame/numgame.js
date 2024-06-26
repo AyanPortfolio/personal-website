@@ -32,21 +32,24 @@ function makeGuess() {
 
 if (myGuess == secret) {
     report.innerHTML = `<br>${myGuess} is correct!`;
+    HINTS.innerHTML = `<br>${myGuess} is correct!`;
 } else if (myGuess < secret) {
 report.innerHTML = `<br>${myGuess} is too small`;
 } else {
     report.innerHTML = `<br>${myGuess} us too big`;
 }
 
-if (Math.abs(myGuess-secret<=100000)) {
+if (myGuess == secret) {
+    HINTS.innerHTML = `<br>${myGuess} is correct!`;
+} else if ((secret-myGuess)<0)
+    HINTS.innerHTML = `<br>${myGuess} is incorrect! try again!`;
+else if (Math.abs(secret-myGuess<=1000)) {
+    HINTS.innerHTML = `<br>${myGuess} within 1k numbers of the secret!`;
+} else if (Math.abs(secret-myGuess<=10000)) {
+    HINTS.innerHTML = `<br>${myGuess} within 10k numbers of the secret!`;
+} else if (Math.abs(secret-myGuess<=100000)) {
     HINTS.innerHTML = `<br>${myGuess} within 100k numbers of the secret!`;
 }
-if (Math.abs(secret-myGuess<=100000)) {
-    HINTS.innerHTML = `<br>${myGuess} within 100k numbers of the secret!`;
-}
-
-
-
 
 if (Guesscount == 10) {
     report.innerHTML = `<br>${myGuess} is wrong, you have failed the challenge. Refresh the page and try again!`;
