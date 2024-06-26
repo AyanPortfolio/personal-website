@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="tswnavbar.css">
+    <title>Ayan's Personal Website</title>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="generator" content="thesitewizard.com's Layout Wizard 4.0.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+    <meta name="author" content="Ayan">
+    <meta name="description" content="idk">
+  </head>
+  <body>
+    <div id="tswcontainer" style="background-color: #010101;">
+      <div id="tswheader">
+        <!-- start of header section: insert your logo, etc, here --> <br>
+        <h1>&nbsp;<img src="C:%5CUsers%5Camishra5%5CDesktop%5Cayan%20website%5Cimages"
+            alt="" title="dd" longdesc="dd"><a href="file:///C:/Users/amishra5/Desktop/ayan%20website/index.html"><img
+              src="images/tree.jpg" alt="" style="width: 207px; height: 166px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span style="font-family: Comic Sans MS;"> <b> My Biography </b></span></h1>
+        <!-- end of header section: insert your logo, etc, above this line --> </div>
+      <div style="text-align: center;"> My</div>
+      <div id="tswcontent" style="background-color: #010101;">
+        <div id="tswcontproper">
+          <p><span style="font-family: Comic Sans MS;"></span></p>
+          <br>
+          <p><span style="font-family: Comic Sans MS;">My name is Ayan, I am 13
+              years old, and I live in Shrewsbury Massachusetts with my parents
+              and dog.</span></p>
+          <span style="font-family: Comic Sans MS;"> </span>
+          <p><span style="font-family: Comic Sans MS;"> I made this website
+              using html on BlueGriffon at a WPI Launch computer science course.
+              <br>
+            </span></p>
+          <p><span style="font-family: Comic Sans MS;"></span><br>
+          </p>
+          <br>
+        </div>
+        <p><br>
+        </p>
+        <p><br>
+        </p>
+        <p><br>
+        </p>
+        <p><br>
+        </p>
+        <p><br>
+        </p>
+        <p><br>
+        </p>
+        <ul style="background-color: #010101;">
+        </ul>
+        <span style="color: #fdfdfd;"> </span>
+        <p style="background-color: #010101;"><span style="color: black;"><br>
+          </span> </p>
+        <span style="color: black;"> </span>
+        <p style="background-color: #010101;"><span style="color: black;"><br>
+          </span> </p>
+        <span style="color: black;"> </span>
+        <ul style="background-color: #010101;">
+          <span style="color: black;"><span style="font-family: Comic Sans MS;">
+            </span></span>
+        </ul>
+        <span style="color: black;"> </span></div>
+      <div id="tswsidecol" style="background-color: #010101;">
+        <div id="tswsideproper"> <span style="color: black;"><!-- start of side column: insert your navigation menu, etc, here --></span>
+          <div id="tswcssbuttons">
+            <ul>
+              <li><span style="color: #4707ff;"><a href="file:///C:/Users/amishra5/Desktop/ayan%20website/index.html">Homepage</a></span></li>
+              <span style="color: #4707ff;"> </span>
+              <li><br>
+                <span style="color: #4707ff;"></span></li>
+              <li><br>
+              </li>
+              <li><span style="color: #4707ff;"><a href="file:///C:/Users/amishra5/Desktop/hobbies/index.html">My
+                    hobbies</a></span></li>
+              <span style="color: #4707ff;"> </span>
+              <li><br>
+                <span style="color: #4707ff;"></span></li>
+              <li><br>
+              </li>
+              <li><span style="color: #4707ff;"><a href="file:///C:/Users/amishra5/Desktop/hometown/index.html">My
+                    hometown</a></span></li>
+            </ul>
+          </div>
+          <span style="color: #d4fdd4;"> </span><span style="color: black;"><br>
+          </span>
+          <p><span style="color: black;"><span style="font-family: Comic Sans MS;">e<br>
+              </span></span></p>
+          <span style="color: black;"><!-- end of side column: put your navigation menu, etc, above this line --></span>
+        </div>
+      </div>
+      <div style="clear: both; background-color: #010101;"></div>
+      <span style="font-family: Comic Sans MS;">&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; </span><span style="font-family: Comic Sans MS;">&nbsp;
+        No copyright at all</span>
+      <div id="tswfooter">
+        <p><br>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
