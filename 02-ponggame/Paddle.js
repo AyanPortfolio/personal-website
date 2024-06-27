@@ -33,7 +33,7 @@ class Paddle {
         //   ball.y to see where the ball is
         //   ball.vy to see where the ball is going
 
-        this.vy = 0; // Modify this line to add your own code
+        this.vy = 5; // Modify this line to add your own code
         
         // Finally, call move to move the paddle normally
         this.move();

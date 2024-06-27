@@ -20,6 +20,7 @@ class Ball {
     }
 
     move() {
+        
         this.x += this.vx
         this.y += this.vy
     }
@@ -33,6 +34,8 @@ class Ball {
         // BOTTOM WALL
         if (this.y + this.r > boardHeight) {
             this.vy = -1 * Math.abs(this.vy);
+
+    
         }
     }
 
@@ -43,9 +46,12 @@ class Ball {
         if (this.y > paddle.y + paddle.l) return false;
         if (this.vx < 0) {
             this.vx = Math.abs(this.vx);
+            this.increaseSpeed();
         }
+        
         return false;
-        return false;
+        
+       
     }
 
     bouncePaddleR(paddle) {
@@ -55,8 +61,23 @@ class Ball {
         if (this.y > paddle.y + paddle.l) return false;
         if (this.vx > 0) {
             this.vx = -1* Math.abs(this.vx);
+            this.increaseSpeed();
         }
+        
         return false;
-        return false;
+      
+    }
+
+    increaseSpeed() {
+        if (ball.vx >= 0){
+     ball.vx = 4
+     ball.r = ball.r+5
+}   else {
+        ball.vx = -4
+        ball.vy = ball.vy-0.5
+        ball.r = ball.r + 5
+    
+
+     }
     }
 }

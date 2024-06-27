@@ -34,7 +34,7 @@ function resetPaddles() {
 }
 
 if (scoreL < scoreR) {
-    PaddleL = (0, 0, 130, paddleWidth, "red");
+    paddleL = paddleLength + 25;
 }
 
 function resetBall() {
@@ -100,3 +100,6 @@ function updateScore() {
     const scoreboard = document.getElementById("scoreboard");
     scoreboard.innerHTML = `${scoreL} : ${scoreR}` ;
 }
+
+
+
