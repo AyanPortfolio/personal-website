@@ -70,13 +70,14 @@ class Ball {
 
     increaseSpeed() {
         if (ball.vx >= 0){
-     ball.vx = 4
+     ball.vx = ball.vx + 1
      ball.r = ball.r+5
 }   else {
-        ball.vx = -4
+        ball.vx = ball.vx - 1
         ball.vy = ball.vy-0.5
         ball.r = ball.r + 5
-    
+    if (ball.r >= 37.5)
+        ball.r = ball.r-5
 
      }
     }

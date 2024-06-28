@@ -25,17 +25,18 @@ class Paddle {
 
         this.y = newY;
     }
-
+    
     moveCPU(ball) {
-        // Use the properties of the ball to set a new velocity
-        // Helpful pieces:
-        //   Math.min() and Math.max() to limit the velocity
-        //   ball.y to see where the ball is
-        //   ball.vy to see where the ball is going
+ if (ball.y < this.y)
+    this.vy = -3
+else if (ball.y > this.y + this.l)
+    this.vy = 3
+else {
+this.vy = 0
+}
 
-        this.vy = 5; // Modify this line to add your own code
-        
-        // Finally, call move to move the paddle normally
+    
         this.move();
     }
+    
 }
